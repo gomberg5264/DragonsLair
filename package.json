@@ -26,6 +26,6 @@
         "vue-template-compiler": "^2.5.21"
     },
     "dependencies": {
-        "acorn": "^6.0.5"
+        "acorn": "^6.4.1"
     }
 }
