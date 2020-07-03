@@ -1,0 +1,77 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel
+{
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.new-post
+{
+    padding: 16px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.new-post header,
+.posts header
+{
+    margin-bottom: 20px;
+}
+
+.posts .post
+{
+    padding-left: 10px;
+    border-left: 3px solid #7365f7;
+    margin-bottom: 30px;
+}
+
+.posts .post .info
+{
+    color: #aaa;
+    font-style: italic;
+}
+
+.error
+{
+    border: 1px solid red;
+    background-color: #f9b5af;
+    color: red;
+}
+
+.error,
+.success,
+.neutral
+{
+    text-align: center;
+}
+
+.error ul,
+.success ul,
+.neutral ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.success
+{
+    border: 1px solid green;
+    background-color: #d1f9da;
+    color: green;
+}
+
+.neutral
+{
+    border: 1px solid blue;
+    background-color: #a5b2fc;
+    color: blue;
+}
